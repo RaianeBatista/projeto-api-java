@@ -28,4 +28,12 @@ public class Cliente {
     public Endereco getEndereco() {
         return  endereco;
     }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
+    }
 }
